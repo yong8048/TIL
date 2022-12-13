@@ -1,4 +1,4 @@
-The Commands I learned Today
+The Commands and How to Use Git, I learned Today
 1. Shell Commands
  - . : current location
  - .. : parent location
@@ -21,3 +21,37 @@ The Commands I learned Today
    - q! : quit Vim mode with discard any changes.
    - w : write
    - wq : write and quit
+3. Before Start Git
+ - Verify that the Program is intalled (git -v)
+ - git Configuration
+   1. git config --global user.name "user name"
+   2. git config --global user.email "user email"
+   3. git config --global core.editor "vim" (when you use vim)
+   4. git config --global core.pager "anything you want" (this is command when you use print file)
+   5. check config, before use git (git config --list)
+ - Create repository and Clone
+   1. do a Clone where you want make repository
+4. How to Use Git
+ - Commit prefix
+   1. feat : about feature
+   2. fix : when you fix error or bugs
+   3. docs; document operation
+   4. test : about test
+   5. conf : about configuration 
+   6. build : about bulid
+ - Commit cautions
+   1. Commit frequently as the smallest operational unit.
+   2. All file changes made to the unit, must be included
+   3. write log that everyone can understand.
+   4. the title should be written simply, and the content should be written in senetence form and further explained
+   5. Separate the title and content with a line
+ - Process Flow
+   1. working directory -> git add : staging area 
+   2. staging area -> git commit : local repository
+   3. local repository -> git push : remote repository
+   4. remote repository -> git pull : local repository
+   5. local repository -> git checkout : working directory
+ - Type of License 
+   1. MIT License
+   2. Apache License 2.0
+   3. GNU General Public License v3.0
