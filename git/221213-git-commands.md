@@ -1,6 +1,6 @@
 # The Commands and How to Use Git, I learned Today
 
-##. Shell Commands
+## Shell Commands
 
  - . : current location
  - .. : parent location
@@ -15,7 +15,7 @@
  - cat : print the contents of the file
  - vi : enter the Vim mode
 
-##. Vim Commands
+## Vim Commands
 
  - i : enter the Insert mode only from Normal mode
  - V : enter the Visual mode only from Normal mode
@@ -29,7 +29,7 @@
  - w : write
  - wq : write and quit
 
-##. Before Start Git
+## Before Start Git
 
 ### Verify that the Program is intalled (git -v)
 
@@ -45,7 +45,7 @@
 
 - do a Clone where you want make repository
 
-##. How to Use Git
+## How to Use Git
 
 ### Commit prefix
 
