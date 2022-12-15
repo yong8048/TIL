@@ -1,6 +1,6 @@
 # How to Make branch and Use, I learned Today
 
-##. What is Branch?
+## What is Branch?
 
 - Branch란 분기점을 생성하여 독립적으로 코드를 변경할 수 있도록 도와주는 모델
 
@@ -20,6 +20,10 @@
 
 - 장점: deploy, issue에 대한 대응이 가능하도록 보완.
 - 단점: git flow와 반대.
+
+## Git flow 전략
+
+<img src="img/Git Flow Strategy.png">
 
 ## Commands
 
