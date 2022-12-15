@@ -1,4 +1,2 @@
-# TIL
-
-<img src='img/TIL.png' >
+# <img src='img/TIL.png' >
 
