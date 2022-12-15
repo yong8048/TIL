@@ -1,4 +1,4 @@
-# The Commands and How to Use Git, I learned Today
+# Shell Commands & Git Basic
 
 ## Shell Commands
 

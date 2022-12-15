@@ -1,4 +1,4 @@
-# How to Make branch and Use, I learned Today
+# How to Use Branch & Git Flow
 
 ## What is Branch?
 
