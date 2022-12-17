@@ -68,6 +68,7 @@ $ git flow feature finish {feature name}
 ```
 $ git flow release start v{version number}
 $ git flow release finish v{version number}
+```
 
 ### When push to Remote
 
