@@ -3,7 +3,7 @@
 ### 설치
 
 - VS Code [공식홈페이지](https://code.visualstudio.com/)에서 OS맞는 설치파일을 다운로드
-- <img src"img/VS Code Homepage.png">
+- <img src="img/VS Code Homepage.png">
 
 ### 파일 생성 및 삭제
 
