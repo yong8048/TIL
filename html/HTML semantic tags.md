@@ -22,37 +22,37 @@
 
 ### 👉 예시
 >```
-<!DOCTYPE html>
-<html lang="ko">
-	<head>
-		<meta charset="utf-8">
-		<title>FastCampus</title> // 페이지 제목
-	</head>
-	<body>
-		<header>
-			<h1>Megabyte School</h1> // 사이트 제목
-			<h2>HTML</h2> // 사이트 부제목
-			<nav>
-				<ul>
-					<li>HTML 이란?</li>     // 메뉴1
-					<li>HTML Tags</li>     // 메뉴2
-					<li>Semantic Tags</li> // 메뉴3
-				</ul>
-			</nav>
-		</header>
-		<main>
-			<p>HTML 설명</p> // 본문 내용
-		</main>
-		<aside>
-			광고..등등
-		</aside>
-		<footer>
-			<p>LICENSE</p>
-		</footer>
+> <!DOCTYPE html>
+   <html lang="ko">
+   <head>
+     <meta charset="utf-8">
+     <title>FastCampus</title> // 페이지 제목
+   </head>
+   <body>
+  	 <header>
+  	   <h1>Megabyte School</h1> // 사이트 제목
+   	   <h2>HTML</h2> // 사이트 부제목
+   	   <nav>
+     	 <ul>
+   		   <li>HTML 이란?</li>     // 메뉴1
+   		   <li>HTML Tags</li>     // 메뉴2
+		   <li>Semantic Tags</li> // 메뉴3
+         </ul>
+	   </nav>
+	 </header>
+	   <main>
+	     <p>HTML 설명</p> // 본문 내용
+	   </main>
+	   <aside>
+	     광고..등등
+	   </aside>
+	   <footer>
+	  	 <p>LICENSE</p>
+	   </footer>
 	</body>
-</html>
+ </html>
 >```
->   <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ko">
 	<head>
 		<meta charset="utf-8">
