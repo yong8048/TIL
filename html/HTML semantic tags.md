@@ -31,11 +31,11 @@
 >   <body>
 >  	 <header>
 >  	   <h1>Megabyte School</h1> // 사이트 제목
->   	   <h2>HTML</h2> // 사이트 부제목
->   	   <nav>
+>      <h2>HTML</h2> // 사이트 부제목
+>  	   <nav>
 >     	 <ul>
->   		   <li>HTML 이란?</li>     // 메뉴1
->   		   <li>HTML Tags</li>     // 메뉴2
+>   	   <li>HTML 이란?</li>     // 메뉴1
+>   	   <li>HTML Tags</li>     // 메뉴2
 >		   <li>Semantic Tags</li> // 메뉴3
 >         </ul>
 >	   </nav>
@@ -52,12 +52,6 @@
 >	</body>
 > </html>
 >```
-<!DOCTYPE html>
-<html lang="ko">
-	<head>
-		<meta charset="utf-8">
-		<title>FastCampus</title>
-	</head>
 	<body>
 		<header>
 			<h1>Megabyte School</h1>
