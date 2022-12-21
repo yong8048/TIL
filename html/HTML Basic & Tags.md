@@ -118,6 +118,7 @@
 - image Tag
 `<img src="https://www.google.com/favicon.ico" alt=구글 로고">`
 <img src="https://www.google.com/favicon.ico" alt="구글 로고">
+
 #### `<svg>`
 - SVG 형식의 그래픽 Tag
 - 별도의 파일 없이 HTML 안에서 코딩으로 넣을 수도 있음
@@ -131,18 +132,18 @@
 #### `<td>`
 - Table data, 테이블의 내용, 즉 셀을 표현
 >```
-<table>
-　　<tr>
-　　　　<td>A</td>
-　　　　<td>B</td>
-　　　　<td>C</td>
-　　</tr>
-　　<tr>
-　　　　<td>D</td>
-　　　　<td>E</td>
-　　　　<td>F</td>
-　　</tr>
-</table>
+>   <table>
+>     <tr>
+>       <td>A</td>
+>       <td>B</td>
+> 　　　<td>C</td>
+>    </tr>
+>  　<tr>
+>    　<td>D</td>
+>    　<td>E</td>
+>    　<td>F</td>
+>    </tr>
+>   </table>
 >```
 <table>
 　　<tr>
@@ -160,7 +161,7 @@
 #### `<th>`
 - Table heading, 테이블의 행
 - Default로 가운데 정렬이고 굵은 글씨로 표시됨
->```
+>   ```
 <table>
 　　<tr>
 　　　　<th>A</th>
