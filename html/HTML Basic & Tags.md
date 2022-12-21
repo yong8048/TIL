@@ -162,18 +162,18 @@
 - Table heading, 테이블의 행
 - Default로 가운데 정렬이고 굵은 글씨로 표시됨
 >   ```
-<table>
-　　<tr>
-　　　　<th>A</th>
-　　　　<th>B</th>
-　　　　<th>C</th>
-　　</tr>
-　　<tr>
-　　　　<td>a</td>
-　　　　<td>b</td>
-　　　　<td>c</td>
-　　</tr>
-</table>
+>   <table>
+>     <tr>
+>       <th>A</th>
+>       <th>B</th>
+>       <th>C</th>
+>    </tr>
+>    <tr>
+>       <td>a</td>
+>       <td>b</td>
+>       <td>c</td>
+>    </tr>
+>   </table>
 >```
 <table>
 　　<tr>
