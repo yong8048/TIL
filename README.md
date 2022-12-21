@@ -11,3 +11,6 @@
 
 ### html
 
+- [HTML Basic & Tags](https://github.com/lbw3973/TIL/blob/main/html/HTML%20Basic%20%26%20Tags.md)
+- [HTML semantic tags](https://github.com/lbw3973/TIL/blob/main/html/HTML%20semantic%20tags.md)
+
