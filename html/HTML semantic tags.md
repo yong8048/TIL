@@ -52,14 +52,19 @@
 >	</body>
 > </html>
 >```
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8">
+	</head>
 	<body>
 		<header>
 			<h1>Megabyte School</h1>
 			<h2>HTML</h2>
 			<nav>
 				<ul>
-					<li>HTML 이란?</li>     
-					<li>HTML Tags</li>    
+					<li>HTML 이란?</li>
+					<li>HTML Tags</li>
 					<li>Semantic Tags</li>
 				</ul>
 			</nav>
