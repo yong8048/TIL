@@ -105,3 +105,96 @@ EX) class의 값이 "value"인 요소의 다음 div 요소 '모두'
 ```
 
 ---
+
+## ⬛ 가상 클래스 선택자 - 동작 관련 (Pseudo-Classes)
+- 각 요소들의 상태에 따른 선택이 이루어지는 선택자를 의미한다
+
+### ✔ :hover
+- 마우스 커서를 올렸을 때 동작한다
+
+```
+EX) A tag위에 마우스를 올리면 빨간색으로 변경
+A:hover{
+  color: red;
+}
+```
+
+### ✔ :active
+- 요소에 마우스 클릭을 하고 있는 동안 동작한다
+
+```
+EX) A tag를 클릭하고 있는 동안 빨간색으로 변경
+A:active {
+  color: red;
+}
+```
+
+### ✔ :focus
+- 요소가 포커스되면 선택
+- 포커스가 가능한 요소에서만 동작한다
+
+```
+EX) input tag가 포커스되면 backgrount color를 빨간색으로 변경
+input:focus {
+  background-color: red;
+}
+```
+
+---
+
+## ⬛ 가상 클래스 선택자 - 특정 요소 선택 관련
+
+### ✔ :first-child
+- 선택자의 형제 요소 중 첫째라면 선택
+
+```
+EX) Class A의 자식 요소 중, 첫번째 요소가 span이라면 color 변경
+.A span:first-child {
+  color: red;
+}
+```
+### ✔ :last-child
+- 선택자의 형제 요소 중 마지막이라면 선택
+
+```
+EX) Class A의 자식 요소 중, 마지막 요소가 span이라면 color 변경
+.A span:last-child {
+  color: red;
+}
+```
+
+### ✔ :nth-child(n)
+- 선택자의 형제 요소 중 n번째라면 선택
+- 상수를 사용해도 되지만 2n, 2n+1, n+3 등의 방식으로 사용할 수 있다
+  - 위와 같이 사용할 때, n은 0부터 시작한다
+
+```
+EX1) Class A의 자식 요소 중, 3번째 요소가 span이라면 color 변경
+.A span:nth-child(3) {
+  color: red;
+}
+
+EX2) Class A의 자식 요소 중, 3번째 요소의 color 변경
+.A *:nth-child(3) {
+  color: red;
+}
+
+EX3) Class A의 자식 요소 중, (2 x n) 번째 요소의 color 변경
+.A *:nth-child(2n) {
+  color: red;
+}
+```
+
+### ✔ :not(X)
+- 부정선택자
+- 선택자 X가 아닌 다른 요소들을 선택
+
+```
+EX) Class A의 자식 요소 중, span을 제외한 요소들의 color 변경
+.A *:not(span) {
+  color: red;
+}
+```
+
+## ⬛ 가장 요소 선택자
+
